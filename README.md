@@ -8,7 +8,7 @@ Ini bot wa base Stiker saja untuk fitur silahkan tambah sendiri
 * pkg install ffmpeg
 * pkg install git
 
-## Lakukan clone repostory
+## Lakukan clone repository
 
 * git clone https://github.com/wansky05/iwanbotwa
 * cd iwanbotwa
