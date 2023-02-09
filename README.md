@@ -1,4 +1,4 @@
-# IWANBOTWA
+# IWANBOTWA XixyBOT
 Ini bot wa base Stiker+Menu yang bisa di ubah sesuai selera anda
 
 ## Install via Termux
