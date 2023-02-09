@@ -1,8 +1,6 @@
 const { exec } = require("child_process");
 const fs = require("fs");
 const path = require("path");
-const color = require("cli-color")
-const qrcode = require('qrcode');
 const log = require("pino");
 const logger = log();
 const { 
