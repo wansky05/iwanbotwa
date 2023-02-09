@@ -1,5 +1,5 @@
 # IWANBOTWA
-Ini bot wa base Stiker saja untuk fitur silahkan tambah sendiri
+Ini bot wa base Stiker+Menu yang bisa di ubah sesuai selera anda
 
 ## Install via Termux
 * pkg update && pkg upgrade
