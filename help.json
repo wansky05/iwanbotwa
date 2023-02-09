@@ -1,1 +1,36 @@
-d
+Halo selamat datang di Xixy Bot versi beta.
+
+Di versi kali ini anda dapat melakukan kostumisasi secara penuh terhadap isi dari bot ini.
+Anda dapat menambahkan/menghapus isi dari index data yang ada di dalam bot ini dengan mengirimkan pesan teks WhatsApp yang sesuai dengan kode akses yang telah dilampirkan di deskripsi ini.
+
+■Berikut adalah cara untuk menambahkan sebuah indeks kode akses ke dalam bot:
+    ●Perlu di perhatikan kode akses harus di mulai dengan tanda "#"
+
+  tambah_#kode aksesnya_isi pesan/konten
+
+contoh untuk menambahkan kode akses #menu:
+
+  tambah_#menu_hai ini adalah isi menu bot
+
+Jika anda sudah melakukan perintah di atas maka Anda dapat mengaksesnya dengan mengirimkan pesan #menu dan akan menampilkan pesan sebagai berikut
+
+"hai ini adalah isi menu bot"
+
+■Berikut adalah cara untuk menghapus sebuah indeks yang telah anda tambahkan sebelumnya.
+    Anda dapat menghapus isi dari sebuah kode akses dengan cara memberikan nilai kosong pada isi dari kode akses yang anda ingin hapus.
+    
+tambah_#kode aksesnya_
+
+    ●ingat jangan isi apapun setelah tanda _ terakhir.
+contoh untuk menghapus kode akses #menu:
+
+tambah_#menu_
+  
+    Cara lainnya untuk menghapus kode akses #menu
+    
+hapus menu.json
+
+Semua Cara Di Atas berlaku untuk Semua Kode Akses yg ingin anda edit.
+
+
+//Created by Iwan
