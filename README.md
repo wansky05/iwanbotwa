@@ -14,6 +14,12 @@ Ini bot wa base Stiker saja untuk fitur silahkan tambah sendiri
 * cd iwanbotwa
 * npm install
 * node index.js
+
+##Cara Pakai
+
+* kirim foto dengan Caption #Stiker
+* untuk setup Bot silahkan kirim pesan #help
+
 ## THANKS To
 * [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
 * [`Allah SWT`]
