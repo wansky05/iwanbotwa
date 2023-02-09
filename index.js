@@ -134,6 +134,18 @@ const lst=pesan.split(" ")
 if(pesan=="#jadibot"){console.log("Terdeteksi meminta layanan Clone Bot"),kirim(messages[0].key.remoteJid,{image: {url: ("./qr.png")},caption:"Scan QR ini untuk menjadi Xixybot\n\n1. Klik titik 3 di pojok kanan atas\n2. Klik Perangkat Tertaut\n3. Scan QR ini \nQR Expired dalam 30 detik"})}
 
 });
-//Area Ev.on
+
+xixy.ev.on("messages.upsert", async ({messages,type}) =>{
+    const msg = messages[0];
+    if(!msg||!msg.message||msg.key.remoteJid === "status@broadcast"||!msg.message.imageMessage||!msg.message.imageMessage.caption)return
+
+   //Stiker
+    if(msg.message.imageMessage.caption =='#stiker'){
+      const buffer = await downloadMediaMessage(msg, "buffer");
+      fs.writeFileSync("./sample.jpg",buffer)
+      const hasilnya = webp.cwebp("./sample.jpg","./hasil.webp","-q 80",logging="-v");
+    hasilnya.then((lanjut) => {xixy.sendMessage(msg.key.remoteJid,{sticker:{url:"./hasil.webp"}}) }) }
+});
+
 }
   xixyBot()
